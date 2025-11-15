@@ -1,0 +1,31 @@
+==================================================
+HEART DISEASE PREDICTION - MODEL RESULTS
+==================================================
+
+Dataset Shape: (1025, 14)
+
+Model Accuracy: 0.9854
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       102
+           1       1.00      0.97      0.99       103
+
+    accuracy                           0.99       205
+   macro avg       0.99      0.99      0.99       205
+weighted avg       0.99      0.99      0.99       205
+
+Confusion Matrix:
+[[102   0]
+ [  3 100]]
+
+Top 5 Most Important Features:
+    feature  importance
+2        cp    0.135072
+11       ca    0.127327
+7   thalach    0.122169
+9   oldpeak    0.121905
+12     thal    0.110518
+
+All results and visualizations saved!
